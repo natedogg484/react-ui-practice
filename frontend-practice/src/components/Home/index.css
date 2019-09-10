@@ -1,13 +1,5 @@
-#home-one {
-    margin-top: .05%;
-    background: black;;
-    color: silver;
-    border-radius: 5px;
-}
-
-#home-two {
+#home-content-one, #home-content-two {
+    background: darkgray;
     margin-top: .25%;
-    background: black;
-    color: silver;
-    border-radius: 5px;
+    border-radius: 15px;
 }

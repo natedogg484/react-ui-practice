@@ -1,7 +1,3 @@
-body {
-  background: lightgreen; 
-}
-
 .container {
   background: gray;
 }
@@ -14,6 +10,11 @@ body {
 .jumbotron {
   background: black;
   color: lavender;
+}
+
+#ad-space-one, #ad-space-two, #ad-space-three, #ad-space-four{
+  background: white;
+  margin-top: .1%
 }
 
 .App {

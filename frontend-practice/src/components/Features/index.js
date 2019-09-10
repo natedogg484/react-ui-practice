@@ -3,12 +3,12 @@ import Wrapper from '../Wrapper'
 import './index.css'
 
 
-function Home() {
+function Features() {
     return <Wrapper>
         <div className='row' id='home-one'>
             <div className='col-md-2 text-center' id='ad-space-one'><h2>Ad space</h2></div>
             <div className='col-md-8 text-center' id='home-content-one'>
-                <h3>This is going to be the homepage content.</h3>
+                <h3>features PAGE.</h3>
                 <p>this is the tale of captain jack sparrowwwww......</p>
                 </div>
             <div className='col-md-2 text-center' id='ad-space-two'><h4>Ad-Space</h4></div>
@@ -24,4 +24,4 @@ function Home() {
     </Wrapper>
 }
 
-export default Home; 
+export default Features; 
