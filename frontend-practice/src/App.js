@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// react router
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+// components
+import Wrapper from './components/Wrapper'
+import Navbar from './components/Navbar'
+import Jumbotron from './components/Jumbotron'
+import Container from './components/Container'
+// Routes
+import Home from './components/Home'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Wrapper>
+        <Navbar></Navbar>
+        <Container>
+          <Jumbotron>
+            <h1>Getting Started!!</h1>
+            <h4>Practicing making a pretty frontend for a better ux/ui</h4>
+          </Jumbotron>
+          <Route path ='/' exact component={Home}></Route>
+        </Container>
+      </Wrapper>
+    </Router>
   );
 }
 

@@ -1,5 +1,24 @@
+body {
+  background: lightgreen; 
+}
+
+.container {
+  background: gray;
+}
+
+.navbar {
+  color: lavender;
+  opacity: .75;
+}
+
+.jumbotron {
+  background: black;
+  color: lavender;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
